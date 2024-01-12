@@ -1,0 +1,72 @@
+///////
+SQL NorthWind
+
+//////
+PLUGINS
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Proxies
+
+//////
+SCAFFOL
+
+Scaffold-DbContext -OutputDir Models 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Northwind' Microsoft.EntityFrameworkCore.SqlServer
+
+//////
+DANS NORTHWINDCONTEXT + using pour logLevel
+
+optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;
+                Initial Catalog=Northwind;MultipleActiveResultSets=True")
+                  .UseLazyLoadingProxies()
+                  .LogTo(Console.WriteLine, LogLevel.Information)
+                  .EnableSensitiveDataLogging();
+
+///////
+CREER les Dossier ViewModels et Views
+
+PLACER dans Views MainWindow.xaml et MainWindow.xaml.cs
+
+CHANGER le StartupUri dans app.xaml => StartupUri="Views/MainWindow.xaml">
+
+CREER les Class xxxModel.cs et xxxVM.cs  => Pas oublier using projet.Models;
+
+AJOUTER la Class DelegateCommand.cs dans ViewModels + Modifier nom projet dans entete;
+
+Dans VM ajouter NorthwindContext dc = new NorthwindContext();
+
+Dans MainWindow => this.DataContext = new xxxVM();
+
+///////
+EXEMPLE => XAML
+	
+	<Window.Resources>
+		<DataTemplate x:Key="key">
+			...
+
+	<Grid>
+        	<Grid.ColumnDefinitions>
+            		<ColumnDefinition Width="*"/>
+			...
+		<Grid.RowDefinitions>
+            		<RowDefinition Height="*"/>
+			...
+
+	<ComboBox Name="cbProduct" Margin="6" MinHeight="30" 
+			ItemsSource="{Binding ListProduct}" 
+			ItemTemplate="{StaticResource listTemplate}"
+			SelectedItem="{Binding SelectedProduct}" />
+
+	<StackPanel Grid.Column="0">
+                <Label Content="ProductID" Margin="6"/>
+
+	<Button Command="{Binding Abandon}" Content="Abandonner le produit sélectionné" />
+
+	<DataGrid Name="dgCountry" AutoGenerateColumns="False" ItemsSource="{Binding CountryCount}" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Country" Binding="{Binding Country}"/>
+
+	
+///////

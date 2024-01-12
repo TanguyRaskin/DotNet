@@ -1,0 +1,12 @@
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\bin\Debug\net6.0\LINQ_DataContext.deps.json
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\bin\Debug\net6.0\LINQ_DataContext.dll
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\bin\Debug\net6.0\ref\LINQ_DataContext.dll
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\bin\Debug\net6.0\LINQ_DataContext.pdb
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.csproj.AssemblyReference.cache
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.AssemblyInfoInputs.cache
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.AssemblyInfo.cs
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.csproj.CoreCompileInputs.cache
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.dll
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\ref\LINQ_DataContext.dll
+C:\Users\tangu\Desktop\IPL\23\.net\Seance2\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.pdb

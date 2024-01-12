@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bf9e05c2-280b-41ce-9864-19b2c3211752": {
+      "ProjectGuid": "bf9e05c2-280b-41ce-9864-19b2c3211752",
+      "DisplayName": "LINQ_DataContext",
+      "ColorIndex": 0
+    },
+    "25503758-4bb8-4727-b3a7-783b359acde3": {
+      "ProjectGuid": "25503758-4bb8-4727-b3a7-783b359acde3",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
